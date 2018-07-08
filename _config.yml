@@ -81,4 +81,4 @@ deploy:
   type: git
   repo: git@github.com:RyougiNevermore/ryouginevermore.github.io.git
   branch: master
-  message: 'push post: {{ now(\'YYYY-MM-DD HH:mm:ss\') }}'
+  message: "push post: {{ now('YYYY-MM-DD HH:mm:ss') }}"
