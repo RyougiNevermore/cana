@@ -10,6 +10,7 @@ keywords: Crazy Ana wangminxiang 汪旻翔 ab abao blog tech ryougi doaman luis
 author: Wang Min Xiang
 language: en
 timezone: Asia/Shanghai
+baidusite: Hpzxiw1B40
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -78,7 +79,15 @@ theme: done
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:RyougiNevermore/ryouginevermore.github.io.git
-  branch: master
-  message: "push post: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  - type: git
+    repo: git@github.com:RyougiNevermore/ryouginevermore.github.io.git
+    branch: master
+    message: "push post: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  - type: baidu_url_submitter
+
+
+baidu_url_submit:
+  count: 1
+  host: "https://cana.ink"
+  token: "eZWe1fkSfAGq6BzS"
+  path: "baidu_urls.txt"
