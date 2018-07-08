@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: Crazy Ana
+subtitle: Crazy Ana
+description: Crazy Ana
+keywords: Crazy Ana wangminxiang 汪旻翔 ab abao blog tech ryougi doaman luis
+author: Wang Min Xiang
+language: en
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://cana.ink
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -55,8 +55,8 @@ index_generator:
   
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+category_map: category
+tag_map: tag
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: done
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

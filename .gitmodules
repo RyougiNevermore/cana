@@ -1,0 +1,6 @@
+[submodule "source/_posts"]
+	path = source/_posts
+	url = git@github.com:RyougiNevermore/cana-posts.git
+[submodule "themes/done"]
+	path = themes/done
+	url = git@github.com:RyougiNevermore/hexo-theme-done.git
