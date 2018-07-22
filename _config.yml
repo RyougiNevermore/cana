@@ -84,10 +84,3 @@ deploy:
     branch: master
     message: "push post: {{ now('YYYY-MM-DD HH:mm:ss') }}"
   - type: baidu_url_submitter
-
-
-baidu_url_submit:
-  count: 1
-  host: "https://cana.ink"
-  token: "eZWe1fkSfAGq6BzS"
-  path: "baidu_urls.txt"
